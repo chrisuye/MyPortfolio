@@ -11,7 +11,8 @@ const Home = () => {
     console.log(data)
     return (
         <div className="Home">
-            <div className="Home-container">
+            Update in Progress
+            {/* <div className="Home-container">
                 <div className="Home-title">
                     <div className='Home-img'>
                         <img src={data.image} alt="profile" className='profile'/>
@@ -29,7 +30,7 @@ const Home = () => {
                 <Skill skills={data.skills}/>
                 <Education education={data.education}/>
                 <Project projects={data.projects}/>
-            </div>
+            </div> */}
         </div>
     );
 }
